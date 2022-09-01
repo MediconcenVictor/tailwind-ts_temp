@@ -200,7 +200,7 @@ export function Calendar() {
                         {yearList && yearList.map((element) => <div className={element === selectedYear ? "year selected" : "year"} key={element} onClick={yearClick}>{element}</div>)}
                     </div>
                 </div>
-                <div className='buttonContainer gap-6a'>
+                <div className='buttonContainer gap-144'>
                     <button onClick={canelClick}>Cancel</button>
                     <button onClick={okClick}>OK</button>
                 </div>
